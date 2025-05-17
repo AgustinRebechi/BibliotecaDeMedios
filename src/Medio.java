@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
 public class Medio {
+
+    public void reproducir(){
+        System.out.println("Reproduciendo un medio");
+    }
 }

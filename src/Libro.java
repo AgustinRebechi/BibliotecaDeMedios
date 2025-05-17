@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public class Libro extends Medio{
 
-public class Libro {
+    private String titulo;
+    private String autor;
+
+    public Libro(String titulo, String autor) {
+        this.titulo = titulo;
+        this.autor = autor;
+    }
+
+    @Override
+    public void reproducir(){
+        System.out.println("Reproduciendo libro: " + titulo + "de " + autor);
+    }
 }
